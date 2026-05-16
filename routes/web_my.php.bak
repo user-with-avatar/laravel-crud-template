@@ -1,0 +1,5 @@
+Route::get('/', function(){return view('main');});
+Route::get('/list', function(){return view('list');});
+Route::get('/note', function(){return view('note');});
+Route::get('/create', function(){return view('create');});
+Route::get('/edit', function(){return view('edit');});
